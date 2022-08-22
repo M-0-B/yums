@@ -1,0 +1,19 @@
+uuid: fad2413c-2179-47bb-a702-31fe438e4b22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_heading
+    - paragraphs.paragraphs_type.hero_section
+id: paragraph.hero_section.field_heading
+field_name: field_heading
+entity_type: paragraph
+bundle: hero_section
+label: Heading
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

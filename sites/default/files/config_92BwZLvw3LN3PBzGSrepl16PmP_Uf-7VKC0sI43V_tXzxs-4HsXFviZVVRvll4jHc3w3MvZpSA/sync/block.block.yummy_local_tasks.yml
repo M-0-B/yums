@@ -1,0 +1,22 @@
+uuid: 0dbf5523-12e1-4ee4-ac32-e36816f9af38
+langcode: en
+status: true
+dependencies:
+  theme:
+    - yummy
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: yummy_local_tasks
+theme: yummy
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

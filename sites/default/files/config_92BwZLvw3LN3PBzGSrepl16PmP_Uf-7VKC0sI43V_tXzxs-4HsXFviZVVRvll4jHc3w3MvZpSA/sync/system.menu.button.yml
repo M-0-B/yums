@@ -1,0 +1,8 @@
+uuid: 80be092c-777a-4544-8c68-fe1b800ee492
+langcode: en
+status: true
+dependencies: {  }
+id: button
+label: Button
+description: ''
+locked: false

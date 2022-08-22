@@ -1,0 +1,25 @@
+uuid: f7f2c1bd-c86e-493d-b4a7-f5d39212ea74
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.button
+  module:
+    - system
+  theme:
+    - yummy
+id: button
+theme: yummy
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:button'
+settings:
+  id: 'system_menu_block:button'
+  label: Button
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

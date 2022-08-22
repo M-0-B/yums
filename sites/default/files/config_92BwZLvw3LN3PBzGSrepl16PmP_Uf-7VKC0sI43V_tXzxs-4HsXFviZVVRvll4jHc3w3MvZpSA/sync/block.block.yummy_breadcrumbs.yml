@@ -1,0 +1,22 @@
+uuid: 6f51dc4e-be9e-4670-8f71-5e6ed5f442fd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - yummy
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: yummy_breadcrumbs
+theme: yummy
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

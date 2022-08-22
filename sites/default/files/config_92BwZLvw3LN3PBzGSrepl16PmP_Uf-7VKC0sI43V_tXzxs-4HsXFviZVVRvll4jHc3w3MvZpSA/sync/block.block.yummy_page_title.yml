@@ -1,0 +1,20 @@
+uuid: c22fc2aa-5a97-4034-ab98-9a3e73dda795
+langcode: en
+status: true
+dependencies:
+  theme:
+    - yummy
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: yummy_page_title
+theme: yummy
+region: breadcrumb
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

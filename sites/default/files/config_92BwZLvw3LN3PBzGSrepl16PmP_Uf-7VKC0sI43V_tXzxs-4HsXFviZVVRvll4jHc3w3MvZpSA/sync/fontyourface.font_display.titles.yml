@@ -1,0 +1,12 @@
+uuid: 8d12c4f2-52e9-428b-8e84-c72736e83c97
+langcode: en
+status: true
+dependencies: {  }
+id: titles
+label: Titles
+font_url: 'https://www.google.com/webfonts/family?family=Abril Fatface&subset=latin#regular'
+fallback: ''
+selectors: .fontyourface
+theme: yummy
+style: null
+weight: null
